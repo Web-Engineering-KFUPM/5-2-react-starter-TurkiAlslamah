@@ -1,10 +1,10 @@
 // src/components/StudentCard.js
-function StudentCard() {
+function StudentCard(props) {
   return (
     <div className="student-card">
-      <h2>Turki Alslamah</h2>
-      <p>202172030</p>
-      <p>CCM</p>
+    <h3>Name: {props.name}</h3>
+      <p>Student ID: {props.id}</p>
+      <p>Department: {props.dept}</p>
     </div>
   )
 }

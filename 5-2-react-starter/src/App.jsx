@@ -12,7 +12,7 @@ function App() {
         <div className="cards-container">
           {/* TODO: Import and render StudentCard components here */}
           <h1>Student info</h1>
-          <StudentCard/>
+         <StudentCard name="Turki Alslamah" id="202172030" dept="CCM" />
         </div>
       </main>
     </div>
